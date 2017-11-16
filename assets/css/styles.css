@@ -116,6 +116,34 @@ footer {
     margin: auto;
 }
 
+.portfolio {
+    background: white;
+    width: 540px;
+    height: 610px;
+    float: left;
+    padding: 0 30px 30px 30px;
+    box-shadow: 0 2px 20px grey;
+}
+
+.portfolioImg {
+    width: 250px;
+    margin: 0 0 15px 0;
+    box-shadow: 0 1px 5px grey;
+}
+
+.imgRight {
+    float: right;
+}
+
+.imgLeft {
+    float: left;
+}
+
+.portfolioItems {
+    height: 100%;
+    width: 100%;
+}
+
 #contactForm {
     color: #666666;
     font-size: 14px;
