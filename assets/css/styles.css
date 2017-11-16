@@ -124,6 +124,7 @@ footer {
     padding: 0 30px 30px 30px;
     box-shadow: 0 2px 20px grey;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .portfolioImg {
