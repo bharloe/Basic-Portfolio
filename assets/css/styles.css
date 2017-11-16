@@ -36,6 +36,10 @@ footer {
     font-size: 30px;
  }
 
+ input {
+    width: 100%;
+}
+
 .headerContainer {
     width: 960px;
     margin: auto;
@@ -101,11 +105,41 @@ footer {
     border-bottom: 2px solid lightgrey;
     color: #4aaaa5; 
     font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+.icon {
+    width: 77px;
+}
+
+.socialIconContainer {
+    margin: auto;
+}
+
+#contactForm {
+    color: #666666;
+    font-size: 14px;
+}
+
+#messageText {
+    height: 80px;
+    resize: both;
 }
 
 #aboutMeImg {
     width: 200px;
     float: left;
-    margin: 0 15px 15px 0;
+    margin: 0 20px 15px 0;
     box-shadow: 0 1px 5px grey;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    width: 150px;
 }
